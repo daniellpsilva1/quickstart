@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "quickstart"
+version = "0.1.0"
+description = "Vital API quickstart project"
+authors = ["Daniel Silva <daniellpsilva1@github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "0.95.1"
+uvicorn = "0.22.0"
+pydantic = "1.10.7"
+python-dotenv = "0.20.0"
+vital = "1.1.22"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api" 
