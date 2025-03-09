@@ -1,0 +1,6 @@
+fastapi==0.95.1
+uvicorn==0.22.0
+pydantic==1.10.7
+python-dotenv==0.20.0
+vital==1.1.22
+git+https://github.com/tryVital/vital-python.git 
